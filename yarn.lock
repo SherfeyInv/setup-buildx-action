@@ -1089,9 +1089,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docker/actions-toolkit@npm:^0.48.0":
-  version: 0.48.0
-  resolution: "@docker/actions-toolkit@npm:0.48.0"
+"@docker/actions-toolkit@npm:^0.49.0":
+  version: 0.49.0
+  resolution: "@docker/actions-toolkit@npm:0.49.0"
   dependencies:
     "@actions/artifact": ^2.1.11
     "@actions/cache": ^3.3.0
@@ -1114,7 +1114,7 @@ __metadata:
     semver: ^7.6.3
     tar-stream: ^3.1.7
     tmp: ^0.2.3
-  checksum: 273eefbb19fd9e098d889cdaa2fbe0ff5a9b0d12d2f941dc4b6914240ee78d2d63db4fa0c39850585e9db1d69d2553ec9d3b935627d0fe1d8ab2ad2f3a84c0a5
+  checksum: 5e945601180002f129f095bba2d7d938b5ca69e87631d5e96a0d3b2254a8b034ab4bafbf7582ea82995e39610ad00fd68b34ab5875b9b314690328f714ad79d0
   languageName: node
   linkType: hard
 
@@ -3179,7 +3179,7 @@ __metadata:
   resolution: "docker-setup-buildx@workspace:."
   dependencies:
     "@actions/core": ^1.11.1
-    "@docker/actions-toolkit": ^0.48.0
+    "@docker/actions-toolkit": ^0.49.0
     "@types/js-yaml": ^4.0.9
     "@types/node": ^20.12.12
     "@types/uuid": ^10.0.0
@@ -3783,7 +3783,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -5850,7 +5850,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.0
-  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.0#~builtin<compat/resolve>::version=1.22.0&hash=07638b"
   dependencies:
     is-core-module: ^2.8.1
     path-parse: ^1.0.7
@@ -6572,7 +6572,7 @@ __metadata:
 
 "typescript@patch:typescript@^3.9#~builtin<compat/typescript>":
   version: 3.9.10
-  resolution: "typescript@patch:typescript@npm%3A3.9.10#~builtin<compat/typescript>::version=3.9.10&hash=3bd3d3"
+  resolution: "typescript@patch:typescript@npm%3A3.9.10#~builtin<compat/typescript>::version=3.9.10&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -6582,7 +6582,7 @@ __metadata:
 
 "typescript@patch:typescript@^5.4.5#~builtin<compat/typescript>":
   version: 5.4.5
-  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=f3b441"
+  resolution: "typescript@patch:typescript@npm%3A5.4.5#~builtin<compat/typescript>::version=5.4.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
